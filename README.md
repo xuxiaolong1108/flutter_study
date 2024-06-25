@@ -1,7 +1,7 @@
 # 原生和flutter混合项目 
 flutter以module的形式引入android项目
 
-#库
+# 库
 cupertino_icons: ^1.0.2
 dio: ^5.4.0
 path_provider:  ^2.1.2
