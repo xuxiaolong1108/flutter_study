@@ -26,4 +26,5 @@ pull_to_refresh: ^2.0.0
 # 环境坑点
 pub cache目录冲突
 Could not create task ‘:flutter_plugin_xxxxxx:generateDebugUnitTestConfig’. this and base files have different roots:
-修改默认的pub cache目录 环境变量系统变量中修改 变量PUB_CACHE 值E:abcpub 
+修改默认的pub cache目录 环境变量系统变量中修改 变量PUB_CACHE 值E:\abc\pub 最好和项目放在同一个目录
+<img src="https://github.com/xuxiaolong1108/flutter_study/blob/main/pic3.png" width="100%">
