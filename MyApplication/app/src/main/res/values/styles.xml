@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomButtonStyle">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+
+    <style name="HomePageButtonStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:color">#ffd9d9d8</item>
+        <item name="android:shadowColor">#ff858685</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+    <style name="HomePageTopImageStyle">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="HomePageRightImageStyle">
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginBottom">23dp</item>
+    </style>
+</resources>

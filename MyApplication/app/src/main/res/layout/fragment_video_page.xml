@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.VideoPageFragment">
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.myapplication.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="23dp"
+        android:src="@mipmap/avatar"
+        app:layout_constraintBottom_toTopOf="@id/like"
+        app:layout_constraintLeft_toLeftOf="@id/like"
+        app:layout_constraintRight_toRightOf="@id/like" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="-10dp"
+        android:src="@mipmap/add"
+        app:layout_constraintBottom_toBottomOf="@id/avatar"
+        app:layout_constraintLeft_toLeftOf="@id/avatar"
+        app:layout_constraintRight_toRightOf="@id/avatar" />
+
+    <ToggleButton
+        android:id="@+id/like"
+        style="@style/HomePageRightImageStyle"
+        android:background="@drawable/like_selector"
+        app:layout_constraintBottom_toTopOf="@id/comment"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="61"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/like"
+        app:layout_constraintRight_toRightOf="@id/like"
+        app:layout_constraintTop_toBottomOf="@id/like" />
+
+    <ImageView
+        android:id="@+id/comment"
+        style="@style/HomePageRightImageStyle"
+        android:src="@mipmap/comment"
+        app:layout_constraintBottom_toTopOf="@id/mark"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="17"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/comment"
+        app:layout_constraintRight_toRightOf="@id/comment"
+        app:layout_constraintTop_toBottomOf="@id/comment" />
+
+    <ToggleButton
+        android:id="@+id/mark"
+        style="@style/HomePageRightImageStyle"
+        android:background="@drawable/mark_selector"
+        app:layout_constraintBottom_toTopOf="@id/forward"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="收藏"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/mark"
+        app:layout_constraintRight_toRightOf="@id/mark"
+        app:layout_constraintTop_toBottomOf="@id/mark" />
+
+    <ImageView
+        android:id="@+id/forward"
+        style="@style/HomePageRightImageStyle"
+        android:layout_marginBottom="70dp"
+        android:src="@mipmap/forward"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        android:text="分享"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/forward"
+        app:layout_constraintRight_toRightOf="@id/forward"
+        app:layout_constraintTop_toBottomOf="@id/forward" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/play"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="98dp"
+        android:text="\@超低空"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="拍拍拍#周末日常 >"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="2021-7-25 22:18"
+        android:textColor="@color/video_time_color"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <com.example.myapplication.MarqueTextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:width="187dp"
+        android:text="\@超低空创作的原声大跌超低空创作的原声大碟"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="@id/time"
+        app:layout_constraintTop_toBottomOf="@id/time">
+
+    </com.example.myapplication.MarqueTextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

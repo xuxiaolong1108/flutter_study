@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/my_flutter_module/.android/Flutter" />
+            <option value="$PROJECT_DIR$/my_flutter_module/flutter_player-master/android" />
+            <option value="$PROJECT_DIR$/../pub/hosted/pub.flutter-io.cn/camera_android-0.10.8+16/android" />
+            <option value="$PROJECT_DIR$/../pub/hosted/pub.flutter-io.cn/fijkplayer-0.11.0/android" />
+            <option value="$PROJECT_DIR$/../pub/hosted/pub.flutter-io.cn/flutter_plugin_android_lifecycle-2.0.17/android" />
+            <option value="$PROJECT_DIR$/../pub/hosted/pub.flutter-io.cn/image_picker_android-0.8.9+3/android" />
+            <option value="$PROJECT_DIR$/../pub/hosted/pub.flutter-io.cn/path_provider_android-2.2.2/android" />
+            <option value="$PROJECT_DIR$/../pub/hosted/pub.flutter-io.cn/shared_preferences_android-2.2.1/android" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
