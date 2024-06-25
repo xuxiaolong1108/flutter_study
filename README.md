@@ -1,5 +1,10 @@
 # 原生和flutter混合项目 
 flutter以module的形式引入android项目
+## 原生界面
+<img src="https://github.com/xuxiaolong1108/flutter_study/blob/main/pic1.jpg" width="50%">
+
+## flutter界面
+<img src="https://github.com/xuxiaolong1108/flutter_study/blob/main/pic2.jpg" width="50%">
 
 # 库
 cupertino_icons: ^1.0.2
